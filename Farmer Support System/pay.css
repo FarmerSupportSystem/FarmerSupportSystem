@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+   
+    }
+
+  /* .pay{
+    margin: 10vh auto;
+    padding: 40px auto;
+    border : 10px solid black;
+    border-width: 3px;
+    width: 80vh ;
+
+  } */
+  h1 {
+    text-align: center;
+  }
+ 
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2dc87d;
+    color: #fffefe;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #477cb4;
+
+  }
+  .back-arrow {
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    font-size: 24px;
+    cursor: pointer;
+    
+  }
+  

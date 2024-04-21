@@ -1,0 +1,191 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navb {
+      background-color: #E4D5C7;
+      padding: 10px 0;
+    }
+
+    .ndiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+.link{
+display: flex;
+width: 40%;
+
+}
+
+    .na {
+      color: black;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .nimg {
+      margin-right: 10px;
+    }
+
+    .nfom {
+      display: flex;
+      align-items: center;
+    }
+
+    .search {
+      padding: 5px;
+      border: none;
+      border-radius: 3px;
+      margin-right: 5px;
+    }
+
+    .btn {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+.btn:hover {
+  background: #212121;
+  color: #ffffff;
+}
+
+.poster{
+  height: 400px;
+  display: flex;
+  position: relative;
+  opacity: 70%;
+  flex-wrap: nowrap;
+    margin-top: 2px;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brd{
+  display: flex;
+  color: black;
+  background-color: #e4d5c7;
+  font-size: 40;
+  position: absolute; 
+}
+
+.cds{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+/* card copy start*/
+  .card {
+  width: 200px;
+  height: 254px;
+  background-color: #186049;
+  border: none;
+  border-radius: 10px;
+  padding-top:10px;
+  position: relative;
+  margin-top:10px;
+  font-family: inherit;
+}
+
+.card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+
+.card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.card .img {
+  width: 70px;
+  height: 70px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: px;
+}
+
+.card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  background: #e4d5c7;
+  color: #111111;
+  font-weight: 600;
+}
+
+.card button:hover {
+  background: #212121;
+  color: #ffffff;
+}
+/* card copy end*/
+
+.copy-right-sec{
+  border-radius: 5px;
+ margin-top: 10px;
+  padding: 1.8rem;
+    background: #e4d5c7;
+    color: #186049;
+    text-align: center;
+}
+.copy-right-sec a{
+  color: blue;
+    font-weight: 500;
+}
+
+ footer {
+      background-color: #E4D5C7;
+      color: black;
+      margin-top: 5px;
+      padding: 20px 0;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    .footer-links li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: blue;
+
+    }
+    .{
+      display: flex;
+      align-items: center;
+      width: 30%;
+      justify-content: space-evenly;
+    }

@@ -1,0 +1,44 @@
+body{
+ margin: 0;
+ padding: 0;
+    
+}
+.show{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.btn:hover {
+    background: #212121;
+    color: #ffffff;
+  }
+
+/* FOOTER */
+footer {
+    background-color: #E4D5C7;
+    color: black;
+    margin-top: 10%;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: blue;
+
+  }
+  /* END FOOTER */
+
+  
